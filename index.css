@@ -1,0 +1,383 @@
+*{
+    margin:0px;padding: 0px;box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#wrapper{
+    width:1000px;
+    margin: auto;
+}
+.menu{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(79, 138, 15);
+}
+.menu img{
+    float: left;
+}
+.menu ul li{
+list-style: none;
+float: left;
+line-height: 50px;
+padding-left: 30px;
+padding-right: 30px;
+border-left: 2px solid rgb(182, 182, 182);
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+.menu ul li a:hover{
+    color: antiquewhite;
+}
+.nhap{
+width: 245px;
+height: 26px;
+margin-top: 20px;
+border-radius: 5px;
+}
+.timkiem{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(0, 247, 49);
+    color: #ffffff;
+    border-radius: 10px;
+}
+.menu form{
+   float: right;
+   padding-right: 10px;
+}
+.header img{
+    width: 1000px;
+    height: 350px;
+}
+#left{
+    width: 250px;
+    height: 1000px;
+    float: left;
+}
+#left ul {
+    background-color: #1c7f1f;
+    width: 250px;
+    list-style-type: none;
+   }
+   #left li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+   }
+   #left li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: block;
+    text-align: center;
+   }
+   #left li:hover {
+    background: #b9b6b6;
+   } 
+   
+   
+   #left ul li {
+    position: relative;
+   }
+   #left .sub-menu {
+    position: absolute;
+    left: 250px;
+    top: 0;
+    display: none;
+   }
+   #left li:hover .sub-menu {
+    display: block;
+   }
+   #left img{
+     height: 396px;
+     width: 250px;
+     
+   }
+   .content{
+       width: 750px;
+       height: 1000px;
+       background-color: #dcdcdca9;
+       float: left;
+    }
+   .content p{
+       font-size: 20px;
+       color: rgb(228, 141, 27);
+       font-weight: bold;
+       margin-left: 10px;
+       margin-top: 15px;
+    }
+   #sanpham{
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 210px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    }
+   
+    
+    #sanpham img{
+        margin-left: -2px;
+        margin-top: 0px;
+    }
+    #sanpham P a{
+        font-size: 15px;
+        text-decoration: none;
+        color: rgb(230, 168, 88);
+        position: relative;
+        top: -30px;
+    }
+    #sanpham span{
+        color:rgb(230, 168, 88) ;
+        bottom: 25px;
+        position: relative;
+        
+    }
+    #sanpham p a:hover{
+        color: #1c7f1f;
+    }
+    #sanpham:hover{
+        box-shadow: 0px 0px 4px 4px rgb(226, 226, 98);
+    }
+    .footer{
+        width: 1000px;
+        height: 200px;
+        clear: both;
+        background-color: #27b44d;
+    }
+    .footer img{
+        width: 300px;
+        height: 200px;
+        float: right;
+    }
+    #text ul li {
+        list-style:none;
+        padding: 5px;
+        margin-bottom: 10px;
+        float: left;
+        margin-top: 150px;
+    }
+    #text a{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: 16px;
+    }
+    #text a:hover{
+        color: antiquewhite;
+    }
+    #text2{
+        float: left;
+        margin-top: -180px;
+        margin-left: 10px;
+    }
+        
+    #text2 a{
+        text-decoration: none;
+        color: white;
+    }
+    #text2 ul li{
+        list-style: none;
+        color: white;
+    }
+    #text2 a:hover{
+        color: antiquewhite;
+    }
+    .footer p{
+        float: left;
+        margin-left: 250px;
+        margin-top: -47px;
+        color: #ffffff;
+    }
+    
+
+    .gioithieu{
+        text-align: center
+    }
+
+    .logo{
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .spbanchay{
+        height: 350px;
+    }
+    .spmoi
+    {
+        text-align: center;
+    }
+
+    .content-about{
+        padding-left:15%;
+        padding-top: 25px;
+    }
+
+    .link-about{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        font-size:12px;
+    }
+
+    .link-about1{
+        text-decoration: none
+    }
+
+    .footer-about{
+        width: 1000px;
+        height: 200px;
+        clear: both;
+        background-color: #27b44d;
+        margin-left: 230px;
+
+    }
+   
+    .footer-about img{
+        width: 300px;
+        height: 200px;
+        float: right;
+    }
+
+    .footer-about p{
+        float: left;
+        margin-left: 250px;
+        margin-top: -47px;
+        color: #ffffff;
+    }
+
+    #text2-about{
+        float: left;
+        margin-top: -180px;
+        margin-left: 10px;
+    }
+        
+    #text2-about a{
+        text-decoration: none;
+        color: white;
+    }
+    #text2-about ul li{
+        list-style: none;
+        color: white;
+    }
+    #text2-about a:hover{
+        color: antiquewhite;
+    }
+
+    .content-about{
+        margin-top:5px;
+        margin-right: 15%;
+    }
+
+    .button-order{
+        margin-top: 10px;
+        margin-left: 45%;
+        background-color: #1c7f1f;
+        width: 90px;
+        height: 50px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .img1{
+        margin-left: 180px;
+        margin-right: 40px;
+        
+    }
+
+    .img2{
+        margin-left: 220px;
+        margin-right: 30px;
+        
+    }
+
+    .content-2{
+        margin-top:10px;
+        margin-left: 19%;
+
+    }
+
+    .content-3{
+        margin-top:10px;
+        margin-left: 19%;
+        padding-bottom: 100px;
+
+    }
+
+    .contentchu{
+        width: 750px;
+        height: 1000px;
+        background-color: #dcdcdca9;
+        float: left;
+     }
+    .contentchu p{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
+     }
+
+     .left-chitietsp{
+        position: absolute;
+        width: 50%;
+        margin-left: 50px;
+        margin-top: 20px;
+     }
+
+     .right-chitietsp{
+        position: absolute;
+        width: 35%; 
+        margin-left: 470px;
+        margin-top: 20px;
+     }
+
+     .right-chitietsp2{
+        position: absolute;
+        width: 35%; 
+        margin-left: 710px;
+        margin-top: 710px;
+     }
+
+
+     .right-chitietsp3{
+
+        position: absolute;
+        width: 35%; 
+        margin-left: 710px;
+        margin-top: 710px;
+     }
+
+     .right-chitietsp4{
+
+        position: absolute;
+        width: 35%; 
+        margin-left: 710px;
+        margin-top: 690px;
+        padding-bottom: 10px;
+     }
+
+     .right-chitietsp5{
+
+        position: absolute;
+        width: 35%; 
+        margin-left: 710px;
+        margin-top: 690px;
+        padding-bottom: 10px;
+     }
+
+     .right-chitietsp6{
+
+        position: absolute;
+        width: 35%; 
+        margin-left: 710px;
+        margin-top: 690px;
+        padding-bottom: 10px;
+     }
+
+
+    
